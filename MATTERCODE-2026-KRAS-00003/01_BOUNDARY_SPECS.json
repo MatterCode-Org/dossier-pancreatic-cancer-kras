@@ -1,0 +1,23 @@
+{
+  "targetName": "KRAS G12D",
+  "targetPdb": "7ZCG",
+  "bindingPocketCoords": {
+    "x": 11.8,
+    "y": -7.4,
+    "z": 23.1
+  },
+  "dockingGridBoxDims": {
+    "dx": 22.0,
+    "dy": 22.0,
+    "dz": 22.0
+  },
+  "keyPocketResidues": [
+    "ASP12",
+    "GLY60",
+    "TYR96",
+    "GLU62"
+  ],
+  "biochemConstraints": "MW 250-600; engineered salt-bridge to ASP12; rotatable bonds <=8",
+  "pharmacophoreRules": "Dual H-bond ASP12; Switch-II occupancy without Switch-I clash",
+  "designMethod": "Structure-Based Deterministic SOP (MatterCode)"
+}
