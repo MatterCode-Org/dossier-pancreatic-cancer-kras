@@ -1,0 +1,2 @@
+canonical_id,inchikey,disease_slug,target,delta_g,avg_rmsd,validation_tier
+MATTERCODE-2026-KRAS-00003,WBGZNHSTHYRMHT-UHFFFAOYSA-N,pancreatic-cancer,KRAS G12D,-10.87,1.454,Tier-2: 50ns Gold MD
