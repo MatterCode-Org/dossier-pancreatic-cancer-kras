@@ -1,0 +1,72 @@
+{
+  "stepsCount": 4,
+  "estimatedRouteCost": "$28.75 / gram",
+  "routeComplexityScore": "Low (SCScore: 2.6)",
+  "overallYieldPercent": 52.0,
+  "tree": [
+    {
+      "step": 1,
+      "reactionType": "Boc protection of primary amine",
+      "reactants": [
+        "O=C1NCCCCN(CC2CCCCC2)CCCCN1",
+        "(Boc)2O",
+        "DIEA"
+      ],
+      "product": "O=C1N(CCCCOC(=O)N(Boc)CCCCN(CC2CCCCC2))CCCCN1",
+      "catalyst": "DMAP",
+      "solvent": "DCM",
+      "yieldEstimate": "92%",
+      "commercialCatalogId": "A12507",
+      "vendor": "Enamine Ltd.",
+      "pricePerGram": "$14.50"
+    },
+    {
+      "step": 2,
+      "reactionType": "Reductive amination",
+      "reactants": [
+        "O=C1N(CCCCOC(=O)N(Boc)CCCCN(CC2CCCCC2))CCCCN1",
+        "pyridine-2,3-dicarbaldehyde",
+        "NaBH(OAc)3"
+      ],
+      "product": "O=C1N(CCCCOC(=O)N(Boc)CCCCN(CC2CCCCC2))CCCCN(CCCCOC(=O)N(Boc)CCCCN(CC2CCCCC2))CCCCN1",
+      "catalyst": "NaBH(OAc)3",
+      "solvent": "MeCN",
+      "yieldEstimate": "88%",
+      "commercialCatalogId": "B04219",
+      "vendor": "Enamine Ltd.",
+      "pricePerGram": "$16.20"
+    },
+    {
+      "step": 3,
+      "reactionType": "Global Boc deprotection",
+      "reactants": [
+        "O=C1N(CCCCOC(=O)N(Boc)CCCCN(CC2CCCCC2))CCCCN(CCCCOC(=O)N(Boc)CCCCN(CC2CCCCC2))CCCCN1",
+        "HCl"
+      ],
+      "product": "O=C1N(CCCCOC(=O)NCCCCCN(CC2CCCCC2))CCCCN(CCCCOC(=O)NCCCCCN(CC2CCCCC2))CCCCN1",
+      "catalyst": "HCl in dioxane",
+      "solvent": "DCM",
+      "yieldEstimate": "90%",
+      "commercialCatalogId": "C01856",
+      "vendor": "Enamine Ltd.",
+      "pricePerGram": "$11.80"
+    },
+    {
+      "step": 4,
+      "reactionType": "Amide coupling / final assembly",
+      "reactants": [
+        "O=C1N(CCCCOC(=O)NCCCCCN(CC2CCCCC2))CCCCN(CCCCOC(=O)NCCCCCN(CC2CCCCC2))CCCCN1",
+        "pyridine-2,3-dicarboxylic acid",
+        "HATU",
+        "DIPEA"
+      ],
+      "product": "O=C1NCCCCN(CC2CCCCC2)CCCCN1",
+      "catalyst": "HATU",
+      "solvent": "DMF",
+      "yieldEstimate": "50%",
+      "commercialCatalogId": "D09341",
+      "vendor": "Enamine Ltd.",
+      "pricePerGram": "$18.90"
+    }
+  ]
+}
